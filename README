@@ -4,7 +4,8 @@
 [htop](http://hisham.hm/htop/)
 ====
 
-by Hisham Muhammad <hisham@gobolinux.org> (2004 - 2016)
+Core developement       by Hisham Muhammad <hisham@gobolinux.org> (2004 - 2016)
+Maintanence and patches by Berke Kocaoğlu <berkekocaoglu360@gmail.com> (2020 - )
 
 Introduction
 ------------
@@ -37,24 +38,9 @@ Comparison between `htop` and classic `top`
 Compilation instructions
 ------------------------
 
-This program is distributed as a standard autotools-based package.
-See the [INSTALL](/INSTALL) file for detailed instructions.
-
-When compiling from a [release tarball](https://hisham.hm/htop/releases/), run:
-
-    ./configure && make
-
-For compiling sources downloaded from the Git repository, run:
-
-    ./autogen.sh && ./configure && make
-
-By default `make install` will install into `/usr/local`, for changing
-the path use `./configure --prefix=/some/path`.
-
-See the manual page (`man htop`) or the on-line help ('F1' or 'h'
-inside `htop`) for a list of supported key commands.
-
-If not all keys work check your curses configuration.
+```
+./autogen.sh && ./configure --prefix=/usr && sudo make install clean
+```
 
 ## License
 
