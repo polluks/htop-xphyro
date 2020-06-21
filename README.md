@@ -1,6 +1,8 @@
 # Acknowledgment
-- Core developement       by Hisham Muhammad <hisham@gobolinux.org> (2004 - 2016)
-- Maintanence and patches by Berke Kocaoğlu <berkekocaoglu360@gmail.com> (2020 - )
+|          Action         |      Person     |           E-mail           |  Timeline |
+|:-----------------------:|:---------------:|:--------------------------:|:---------:|
+|     Core development    | Hisham Muhammad |    hisham@gobolinux.org    | 2004-2016 |
+| Maintanence and patches |  Berke Kocaoğlu | berkekocaoglu360@gmail.com |   2020-   |
 
 # Information about htop
 See [hishamhm/htop/README](https://github.com/hishamhm/htop/blob/master/README).
