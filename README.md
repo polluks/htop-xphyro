@@ -3,11 +3,9 @@
 - Maintanence and patches by Berke Kocaoğlu <berkekocaoglu360@gmail.com> (2020 - )
 
 # Information about htop
-See [hishamhm/htop](https://github.com/hishamhm/htop).
+See [hishamhm/htop/README](https://github.com/hishamhm/htop/blob/master/README).
 
 # Compilation instructions
-------------------------
-
 ```
 ./autogen.sh && ./configure --prefix=/usr && sudo make install clean
 ```
